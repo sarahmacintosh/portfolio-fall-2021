@@ -1,11 +1,12 @@
 <template>
   <div id="projects">
 		<h2>Projects</h2>
+		<br>
 		<ProjectTile 
 			v-for="proj, i in projects"
 			v-bind="proj"
 			:key="i"
-			:color="i % 2 ? 'white' : '#BCE5E8'"/>
+			:color="i % 2 ? '#BCE5E8' : 'white'"/>
 	</div>
 </template>
 
@@ -34,5 +35,6 @@ export default {
 h2 {
 	margin: 0;
 	padding-top: 1rem;
+	font-size: 40px;
 }
 </style>

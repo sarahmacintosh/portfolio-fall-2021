@@ -1,26 +1,26 @@
 [
 	{
-		"name": "Name",
-		"date": "date",
-		"forWho": "for who?",
-		"description": "description",
-		"image": "image",
-		"link": "/resume.pdf"
+		"name": "Improving user experience for first time users",
+		"date": "Spring 2021",
+		"forWho": "Water Rangers",
+		"description": "Using data to design changes and improve user experience and retention on the Water Rangers data platform.",
+		"image": "sweb-temp-WR.png",
+		"link": "/water-rangers"
 	},
 	{
-		"name": "Name 2",
-		"date": "date",
-		"forWho": "for who?",
-		"description": "description",
-		"image": "image",
-		"link": "projectNameThing"
+		"name": "Process optimization for data uploads",
+		"date": "Fall 2020",
+		"forWho": "Innovation Canada",
+		"description": "Optimizing the process used to upload important licencing data to SPECTRAplus.",
+		"image": "sweb-temp-ISED.png",
+		"link": "/innovation-canada"
 	},
 	{
-		"name": "Name 3",
-		"date": "date",
-		"forWho": "for who?",
-		"description": "description",
-		"image": "image",
-		"link": ""
+		"name": "Web page optimization for benefit delivery",
+		"date": "Winter 2020",
+		"forWho": "Employment & Social Development Canada",
+		"description": "Optimizing benefits delivery web pages to improve accessibility and experience for users.",
+		"image": "sweb-temp-ESDC.png",
+		"link": "/esdc"
 	}
 ]

@@ -1,12 +1,14 @@
 <template>
   <div class="tile" :style="{'background': color}">
-		<img :src="getImage(image)" :alt="`An image of ${name}`">
+		<img v-if="image" :src="getImage(image)" :alt="`An image of ${name}`">
 		<div class="header">
-			<b>{{ name }}</b>
-			<p>{{ date }}</p>
-			<p>{{ forWho }}</p>
+			<h3 class="project-title"><b>{{ name }}</b></h3>
 		</div>
-		<p>{{ description }}</p>
+		<div>
+			<p><b>{{ forWho }}</b> –– {{ date }}</p>
+			<br>
+			<p>{{ description }}</p>
+		</div>
 	</div>
 </template>
 
@@ -43,7 +45,7 @@ export default {
 			try {
 				return require("@/assets/project/" + image);
 			} catch (e) {
-				// throw Error(`pic does not exist: ${speaker}`);
+				// throw Error(`pic does not exist: ${image}`);
 			}
 		}
 	}
@@ -59,8 +61,9 @@ export default {
 .header {
 	display: flex;
 }
-.header>*::after {
-	content: ' * ';
+
+.project-title {
+	size: 30px;
 }
 
 p {
