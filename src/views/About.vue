@@ -2,24 +2,28 @@
 	<span>
 		<NavBar/>
 		<div class="about">
-		<img src="../assets/dummy_profile.jpeg" alt="Me!">
+		<img src="../assets/profile-image.jpeg" alt="Me!">
 			<div>
-				<h1>Hey, I'm Sarah :)</h1>
+				<h1>Hey, I'm Sarah!</h1>
+				<p class="sub-header">I'm a third year Systems Design Engineering student at the University of Waterloo. I've worked in a wide range of projects where I've gained experience in user experience design, research, project management and front end development.</p>
 				<p>I'm passionate about using a holistic, data driven approach to design products with flawless user experience. With diverse experience in UX design, research, project management and front end development I have the background to create designs that are simple for developers to implement while serving users effectively.</p>
-				<p>I'm also am an avid athlete. I enjoy running, mountain biking, climbing and competing on the Waterloo Varsity cross country ski team. When I'm not being active I enjoy photography, peer mentoring and taking care of my jungle of house plants.</p>
+				<p>I'm also an avid athlete. I enjoy running, mountain biking, climbing and competing on the Waterloo Varsity cross country ski team. When I'm not being active I enjoy photography, peer mentoring and taking care of my jungle of house plants.</p>
 				<p>Looking for a 4 month co-op placement starting January 2022. Please feel free to reach out!</p>
 			</div>
 		</div>
+		<Footer/>
 	</span>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
 	name: 'About',
 	components: {
-		NavBar
+		NavBar,
+		Footer
 	}
 }
 </script>
@@ -28,8 +32,8 @@ export default {
 .about {
 	width: 100%;
 	padding-top: 10rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	min-height: 100vh;
 	background: #BCE5E8;
 }
@@ -45,11 +49,22 @@ h1 {
 	color: #313131DB;
 }
 
+.sub-header {
+	font-family: Calibri;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #313131DB;
+}
+
 p {
 	text-align: left;
 	color: #313131DB;
 	font-size: 20px;
-	font-weight: 70;
+	font-weight: 100;
 }
 img {
 	max-width: 40rem;

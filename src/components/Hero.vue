@@ -11,10 +11,11 @@
 	padding-top: 10rem;
 	min-height: 100vh;
 	background: #313131DE;
+	background: #11ABB0;
 }
 
 .hero-text {
-	font-family: Calibri;
+	font-family: "Calibri";
 	font-size: 75px;
 	font-style: normal;
 	font-weight: 400;

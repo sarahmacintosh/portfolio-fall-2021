@@ -63,7 +63,7 @@ export default {
 }
 
 .project-title {
-	size: 30px;
+	size: 40px;
 }
 
 p {
