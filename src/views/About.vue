@@ -1,8 +1,12 @@
 <template>
-	<div class="about">
+	<span>
 		<NavBar/>
-		<img alt="Vue logo" src="../assets/logo.png">
-	</div>
+		<div class="about">
+			<h1>About</h1>
+			<p>ABOUT TEXT HERE</p>
+			<img src="../assets/dummy_profile.jpeg" alt="Me!">
+		</div>
+	</span>
 </template>
 
 <script>
@@ -18,6 +22,15 @@ export default {
 
 <style scoped>
 .about {
+	box-sizing: border-box;
 	width: 100%;
+	padding-top: 10rem;
+	min-height: 100vh;
+	background: #BCE5E8;
+}
+
+img {
+	max-width: 40rem;
+	float: right;
 }
 </style>

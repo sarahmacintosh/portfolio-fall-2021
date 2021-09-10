@@ -4,20 +4,23 @@
 		"date": "date",
 		"forWho": "for who?",
 		"description": "description",
-		"image": "image"
+		"image": "image",
+		"link": "/resume.pdf"
 	},
 	{
 		"name": "Name 2",
 		"date": "date",
 		"forWho": "for who?",
 		"description": "description",
-		"image": "image"
+		"image": "image",
+		"link": "projectNameThing"
 	},
 	{
 		"name": "Name 3",
 		"date": "date",
 		"forWho": "for who?",
 		"description": "description",
-		"image": "image"
+		"image": "image",
+		"link": ""
 	}
 ]
