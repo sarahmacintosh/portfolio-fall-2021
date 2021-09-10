@@ -1,12 +1,12 @@
 <template>
   <div class="tile" :style="{'background': color}">
+		<img :src="getImage(image)" :alt="`An image of ${name}`">
 		<div class="header">
-			<p>{{ name }}</p>
+			<b>{{ name }}</b>
 			<p>{{ date }}</p>
 			<p>{{ forWho }}</p>
 		</div>
 		<p>{{ description }}</p>
-		<img :src="getImage(image)" :alt="`An image of ${name}`">
 	</div>
 </template>
 
@@ -53,6 +53,7 @@ export default {
 <style scoped>
 .tile {
 	text-align: left;
+	padding: 2rem;
 }
 
 .header {
@@ -60,6 +61,10 @@ export default {
 }
 .header>*::after {
 	content: ' * ';
+}
+
+p {
+	margin: 0;
 }
 
 img {

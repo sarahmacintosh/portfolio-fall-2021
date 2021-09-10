@@ -3,6 +3,7 @@
 		<NavBar/>
 		<Hero/>
 		<Projects/>
+		<Footer/>
 	</div>
 </template>
 
@@ -11,13 +12,15 @@
 import NavBar from '@/components/NavBar.vue'
 import Hero from '@/components/Hero.vue'
 import Projects from '@/components/Projects.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
 	name: 'Home',
 	components: {
 		NavBar,
 		Hero,
-		Projects
+		Projects,
+		Footer
 	}
 }
 </script>

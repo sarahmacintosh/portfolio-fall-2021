@@ -7,7 +7,6 @@
 
 <style scoped>
 .hero {
-	box-sizing: border-box;
 	padding: 5rem;
 	padding-top: 10rem;
 	min-height: 100vh;

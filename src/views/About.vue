@@ -22,7 +22,6 @@ export default {
 
 <style scoped>
 .about {
-	box-sizing: border-box;
 	width: 100%;
 	padding-top: 10rem;
 	min-height: 100vh;

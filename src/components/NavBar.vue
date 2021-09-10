@@ -16,7 +16,6 @@
 	justify-content: space-between;
 	align-items: center;
 
-	box-sizing: border-box;
   width: 100%;
 	padding: 1rem;
 	background: #313131;
