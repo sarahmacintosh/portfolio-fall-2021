@@ -1,17 +1,9 @@
 <template>
 	<div class="hero">
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-		<h1 class="hero-text">–– Sarah Macintosh ––</h1>
-		<h2>Systems Design Engineering student, UX designer, athlete, photographer</h2>
+		<span>
+			<h1 class="hero-text">–– Sarah Macintosh ––</h1>
+			<h2>Systems Design Engineering student, UX designer, athlete, photographer</h2>
+		</span>
 	</div>
 </template>
 
@@ -20,12 +12,12 @@
 	padding: 5rem;
 	padding-top: 10rem;
 	min-height: 100vh;
-	background: #313131DE;
-	background: #11ABB0;
-	background: #BCE5E8;
 	background-image: url("../assets/water-stream.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: grid;
+	place-items: center;
+
 }
 
 .hero-text {

@@ -4,7 +4,7 @@
 		<div class="links">
 			<router-link to="/#projects">Projects</router-link>
 			<router-link to="/about">About</router-link>
-			<router-link to="/resume.pdf">Resume</router-link>
+			<a href="/resume.pdf">Resume</a>
 		</div>
 	</div>
 </template>

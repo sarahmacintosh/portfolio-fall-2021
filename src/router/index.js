@@ -32,7 +32,7 @@ const router = createRouter({
       return {el: to.hash}
     else
       return { x: 0, y: 0 }
-},
+  },
 })
 
 export default router
