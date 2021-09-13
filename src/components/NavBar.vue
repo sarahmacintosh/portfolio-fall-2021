@@ -2,7 +2,7 @@
 	<div id="nav">
 		<router-link to="/"><img src="../assets/home.svg" alt="SM"></router-link>
 		<div class="links">
-			<router-link to="#projects">Projects/Portfolio</router-link>
+			<router-link to="#projects">Projects</router-link>
 			<router-link to="/about">About</router-link>
 			<a href="/resume.pdf">Resume</a>
 		</div>
@@ -24,6 +24,7 @@
 #nav a {
   font-weight: bold;
   color: white;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {

@@ -12,4 +12,7 @@
 	padding: 1rem;
 	background: #313131DE;
 }
+p {
+	text-align: center;
+}
 </style>
