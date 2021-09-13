@@ -2,7 +2,7 @@
 	<div class="hero">
 		<span>
 			<h1 class="hero-text">–– Sarah Macintosh ––</h1>
-			<h2>Systems Design Engineering student, UX designer, athlete, photographer</h2>
+			<!--<h2>Systems Design Engineering student, UX designer, athlete, photographer</h2>-->
 		</span>
 	</div>
 </template>
