@@ -2,7 +2,7 @@
 	<div id="nav">
 		<router-link to="/"><img src="../assets/home.svg" alt="SM"></router-link>
 		<div class="links">
-			<a href="/#projects">Projects/Portfolio</a>
+			<router-link to="#projects">Projects/Portfolio</router-link>
 			<router-link to="/about">About</router-link>
 			<a href="/resume.pdf">Resume</a>
 		</div>
