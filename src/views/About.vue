@@ -65,9 +65,10 @@ p {
 	color: #313131DB;
 	font-size: 20px;
 	font-weight: 100;
+	max-width: 60%;
 }
 img {
-	max-width: 40rem;
+	max-width: 40%;
 	float: right;
 	padding: 2rem;
 }

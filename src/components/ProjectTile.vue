@@ -72,5 +72,7 @@ p {
 
 img {
 	float: right;
+	max-width: 20%;
+	padding: 1rem;
 }
 </style>

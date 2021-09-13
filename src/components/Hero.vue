@@ -12,13 +12,14 @@
 	min-height: 100vh;
 	background: #313131DE;
 	background: #11ABB0;
+	background: #BCE5E8;
 }
 
 .hero-text {
 	font-family: "Calibri";
 	font-size: 75px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 60px;
 	letter-spacing: 0em;
 	text-align: middle;
