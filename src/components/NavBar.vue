@@ -2,9 +2,9 @@
 	<div id="nav">
 		<router-link to="/"><img src="../assets/home.svg" alt="SM"></router-link>
 		<div class="links">
-			<router-link to="#projects">Projects</router-link>
+			<router-link to="/#projects">Projects</router-link>
 			<router-link to="/about">About</router-link>
-			<a href="/resume.pdf">Resume</a>
+			<router-link to="/resume.pdf">Resume</router-link>
 		</div>
 	</div>
 </template>

@@ -1,40 +1,28 @@
 <template>
-  <div class="tile" :style="{'background': color}">
-		<img v-if="image" :src="getImage(image)" :alt="`An image of ${name}`">
-		<div class="header">
-			<h3 class="project-title"><b>{{ name }}</b></h3>
-		</div>
-		<div>
-			<p><b>{{ forWho }}</b> –– {{ date }}</p>
-			<br>
-			<p>{{ description }}</p>
-		</div>
+	<div :class="{'tile': true, 'hand': link}" :style="{'background': color}" @click="route">
+			<div class="content">
+				<h3 :class="{'project-title': true, 'underline': link}"><b>{{ name }}</b></h3>
+				<p><b>{{ forWho }}</b> –– {{ date }}</p>
+				<p>{{ description }}</p>
+			</div>
+			<img v-if="image" :src="getImage(image)" :alt="`An image of ${name}`">
 	</div>
 </template>
 
 <script>
+const defaultString = {
+	type: String,
+	default: ""
+}
+
 export default {
 	props: {
-		name: {
-			type: String,
-			default: ""
-		},
-		date: {
-			type: String,
-			default: ""
-		},
-		forWho: {
-			type: String,
-			default: ""
-		},
-		description: {
-			type: String,
-			default: ""
-		},
-		image: {
-			type: String,
-			default: ""
-		},
+		name: defaultString,
+		date: defaultString,
+		forWho: defaultString,
+		description: defaultString,
+		image: defaultString,
+		link: defaultString,
 		color: {
 			type: String,
 			default: "#BCE5E8"
@@ -47,6 +35,10 @@ export default {
 			} catch (e) {
 				// throw Error(`pic does not exist: ${image}`);
 			}
+		},
+		route() {
+			if (this.link)
+				this.$router.push(this.link);
 		}
 	}
 }
@@ -56,14 +48,24 @@ export default {
 .tile {
 	text-align: left;
 	padding: 2rem;
+	display: grid;
+	grid-template-columns: 80% 1fr;
 }
 
-.header {
+.content {
 	display: flex;
+	flex-direction: column;
 }
 
 .project-title {
 	size: 40px;
+}
+
+.hand:hover {
+	cursor: pointer;
+}
+.underline {
+	text-decoration: underline;
 }
 
 p {
@@ -71,8 +73,6 @@ p {
 }
 
 img {
-	float: right;
-	max-width: 20%;
 	padding: 1rem;
 }
 </style>
