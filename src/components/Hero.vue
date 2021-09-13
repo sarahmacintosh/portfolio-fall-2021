@@ -1,5 +1,15 @@
 <template>
 	<div class="hero">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 		<h1 class="hero-text">–– Sarah Macintosh ––</h1>
 		<h2>Systems Design Engineering student, UX designer, athlete, photographer</h2>
 	</div>
@@ -13,6 +23,9 @@
 	background: #313131DE;
 	background: #11ABB0;
 	background: #BCE5E8;
+	background-image: url("../assets/water-stream.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .hero-text {

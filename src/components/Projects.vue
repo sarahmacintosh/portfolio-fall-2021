@@ -1,5 +1,6 @@
 <template>
   <div id="projects">
+		
 		<h2>Projects</h2>
 		<br>
 		<ProjectTile 
@@ -36,5 +37,9 @@ h2 {
 	margin: 0;
 	padding-top: 1rem;
 	font-size: 40px;
+}
+
+hr {
+	border-top: 3px solid white;
 }
 </style>

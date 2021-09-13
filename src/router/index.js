@@ -13,6 +13,14 @@ const routes = [
   {
     path: '/water-rangers',
     component: () => import('../views/WaterRangers.vue')
+  },
+  {
+    path: '/innovation-canada',
+    component: () => import('../views/ISED.vue')
+  },
+  {
+    path: '/esdc',
+    component: () => import('../views/ESDC.vue')
   }
 ]
 
