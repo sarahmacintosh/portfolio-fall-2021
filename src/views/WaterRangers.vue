@@ -7,9 +7,26 @@
 				<br>
 				<p class="sub-header">Term: </p> <p>Summer 2021</p>
 				<p class="sub-header">Skills: </p> <p>Iterative design, persona development, user journey mapping, analytics</p>
-				<p class="sub-header">Tools: </p> <p>Figma, Google Analytics, Ruby on Rails</p>
+				<p class="sub-header">Tools: </p> <p>Figma, Google Analytics, Ruby on Rails, Excel</p>
 				<br>
-				<p>talk about dat project</p>
+				<p>Problem definition:
+				Blurb about what water rangers is (from WR)
+				Goal of the project (increase user traffic - new users and retaining old ones</p>
+				<p>Scope - tbh what does this mean - maybe like: make design changes that will have this effect</p>
+				<p>Method:
+				- user research and personas
+				- user journey maps
+				- identify pain points
+				- design changes to fix pain points
+				- release(s)</p>
+				<p>Designs
+				- obs/loc/issues pages
+				- cards
+				- new user popup
+				- profile page edits</p>
+				<p>Results: take numbers from WR - find numbers for the user profile page as well</p>
+				<p>Changes for next time:
+				</p>
 			</div>
 		</div>
 		<Footer/>

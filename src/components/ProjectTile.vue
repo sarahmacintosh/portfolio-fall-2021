@@ -1,7 +1,7 @@
 <template>
 	<div :class="{'tile': true, 'hand': link}" :style="{'background': color}" @click="route">
 			<div class="content">
-				<h3 :class="{'project-title': true, 'underline': link}"><b>{{ name }}</b></h3>
+				<h3 :class="{'project-title': true}"><b>{{ name }}</b></h3>
 				<p><b>{{ forWho }}</b> –– {{ date }}</p>
 				<p>{{ description }}</p>
 			</div>
@@ -59,6 +59,7 @@ export default {
 
 .project-title {
 	size: 40px;
+	text-decoration: none;
 }
 
 .hand:hover {

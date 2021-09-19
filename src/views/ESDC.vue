@@ -5,11 +5,11 @@
 			<div>
 				<h1>Web page optimization for benefit delivery</h1>
 				<br>
-				<p class="sub-header">Organization: Employment and Social Development Canada</p>
-				<p class="sub-header">Term: Winter 2020 (3 weeks)</p>
-				<p class="sub-header">Skills: user research, card sort, information architecture, wireframing, SEO, plain language, user testing, usability testing, web optimization</p>
-				<p class="sub-header">Tools: Optimal workshop, Figma, Adobe Analytics, Visible Thread</p>
-				<p class="sub-header">Type: UX Design, User research</p>
+				<p class="sub-header"><b>Organization:</b> Employment and Social Development Canada</p>
+				<p class="sub-header"><b>Term:</b> Winter 2020 (3 weeks)</p>
+				<p class="sub-header"><b>Skills:</b> user research, card sort, information architecture, wireframing, SEO, plain language, user testing, usability testing, web optimization</p>
+				<p class="sub-header"><b>Tools:</b> Optimal workshop, Figma, Adobe Analytics, Visible Thread</p>
+				<p class="sub-header"><b>Type:</b> UX Design, User research</p>
 
 				<h2>Context</h2>
 					<p>
@@ -161,7 +161,7 @@ p {
 	max-width: 90%;
 }
 img {
-	width: 100%;
+	width: 60%;
 	padding: 1rem;
 }
 
