@@ -36,8 +36,8 @@
 						The low number of users indicated that users weren’t able to find the page from a search engine due to weak metadata. This meant a new Search Engine Optimization strategy needed to be implemented with metadata more in line with what users searched to find the page.
 						First, I created a card sort based on the content that needed to be included on the web page using online software from Optimal Workshop.
 					</p>
-					<img src="../assets/esdc-cs-image1.png" alt="image1">
-					<img src="../assets/esdc-cs-image2.png" alt="image2">
+					<img class="two-normal-size-pictures-sitting-together" src="../assets/esdc-cs-image1.png" alt="image1">
+					<img class="two-normal-size-pictures-sitting-together" src="../assets/esdc-cs-image2.png" alt="image2">
 					<img>
 					<p>
 						I grouped the information from the webpage into ‘cards’ based on the existing structure. I turned information under each >h2> or >h3> into a ‘card’ that included a brief summary of the information.
@@ -70,6 +70,7 @@
 					If I were to do this project again I would make several changes. The main change I would make in the project is to incorporate more iterations to gather user feedback on intermediary steps. Instead of moving directly to a high fidelity mockup I would test the Information Architecture using a lo-fi mockup(s) before moving to higher fidelity mockups. I also would have liked to include larger user testing groups but for this project didn’t have the resources allocated to it. This would allow for any other issues to be identified and validate the success of the redesign.
 				</p>
 			</div>
+			<br>
 		</div>
 		<Footer/>
 	</span>
@@ -160,6 +161,10 @@ p {
 img {
 	width: 60%;
 	padding: 1rem;
+}
+
+.two-normal-size-pictures-sitting-together{
+	width: 40%;
 }
 
 .two-pictures-sitting-together{

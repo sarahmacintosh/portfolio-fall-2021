@@ -57,6 +57,7 @@
 					If I were to do this project again I would like to stay on long enough to see the effects of the new process. Since I started this project near the end of my co-op I wasn't able to track the effects and identify issues to resolve.
 					</p>
 			</div>
+			<br>
 		</div>
 		<Footer/>
 	</span>

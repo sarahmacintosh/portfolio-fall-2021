@@ -2,9 +2,9 @@
 	<div id="nav">
 		<router-link to="/"><img src="../assets/home.svg" alt="SM"></router-link>
 		<div class="links">
-			<router-link to="/#projects">Projects</router-link>
-			<router-link to="/about">About</router-link>
-			<a href="/resume.pdf">Resume</a>
+			<router-link to="/#projects" class="nav-li">Projects</router-link>
+			<router-link to="/about" class="nav-li">About</router-link>
+			<a href="/resume.pdf" class="nav-li">Resume</a>
 		</div>
 	</div>
 </template>
@@ -25,10 +25,15 @@
   font-weight: bold;
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
 
 #nav a.router-link-exact-active {
   color: #11ABB0;
+}
+
+.nav-li {
+	padding: 1rem;
 }
 
 .links {

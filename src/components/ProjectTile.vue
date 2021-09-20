@@ -3,6 +3,8 @@
 			<div class="content">
 				<h3 :class="{'project-title': true}"><b>{{ name }}</b></h3>
 				<p><b>{{ forWho }}</b> –– {{ date }}</p>
+				<br>
+				<br>
 				<p>{{ description }}</p>
 			</div>
 			<img v-if="image" :src="getImage(image)" :alt="`An image of ${name}`">
@@ -69,8 +71,13 @@ export default {
 	text-decoration: underline;
 }
 
+h3 {
+	font-size: 25px;
+}
+
 p {
 	margin: 0;
+	font-size: 20px;
 }
 
 img {
