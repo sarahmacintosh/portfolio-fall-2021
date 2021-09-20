@@ -13,10 +13,7 @@
 
 				<h2>Context</h2>
 					<p>
-					After working in a supporting role as a user researcher and UX designer on multiple Government of Canada webpage optimization* projects during my co-op, I tackled the task of running the Benefits Children Under 25 webpage optimization project myself.
-					</p>
-					<p>
-					After working in a supporting role as a user researcher and UX designer on multiple Government of Canada webpage optimization* projects during my co-op, I tackled the task of running the Benefits Children Under 25 webpage optimization project myself.
+					After working in a supporting role as a user researcher and UX designer on multiple Government of Canada webpage optimization projects during my co-op, I tackled the task of running the Benefits Children Under 25 webpage optimization project myself.
 					</p>
 				<h2>UX Goals</h2>
 					<p>
