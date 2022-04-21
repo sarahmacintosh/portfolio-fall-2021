@@ -20,3 +20,18 @@ jobs:
         username: 'sarahmacintosh'
         reponame: 'portfolio-fall-2021'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@master
+
+#     - name: Build and Deploy
+#       uses: rreichel3/vuepress-github-actions-deploy@master
+#       env:
+#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#         BUILD_DIR: dist/
+#         BUILD_SCRIPT: npm install && npm run build # The build script the action should run prior to deploying.
+#         PAGES_CNAME: sarahmacintosh.me

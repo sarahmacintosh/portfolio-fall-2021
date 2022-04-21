@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### things broken?
+```
+is CNAME file missing from gh-pages branch again? ya i thought so...
+```
