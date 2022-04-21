@@ -8,7 +8,7 @@
 				<p class="sub-header">I'm a third year Systems Design Engineering student at the University of Waterloo. I've worked in a wide range of projects where I've gained experience in user experience design, research, project management and front end development.</p>
 				<p>I'm passionate about using a holistic, data driven approach to design products with flawless user experience. With diverse experience in UX design, research, project management and front end development I have the background to create designs that are simple for developers to implement while serving users effectively.</p>
 				<p>I'm also an avid athlete. I enjoy running, mountain biking, climbing and competing on the Waterloo Varsity cross country ski team. When I'm not being active I enjoy photography, peer mentoring and taking care of my jungle of house plants.</p>
-				<p>Looking for a 4 month co-op placement starting January 2022. Please feel free to reach out!</p>
+				<p>Looking for a 4 month co-op placement starting September 2022. Please feel free to reach out!</p>
 			</div>
 		</div>
 		<Footer/>
