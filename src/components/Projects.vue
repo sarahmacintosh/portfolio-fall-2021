@@ -6,8 +6,7 @@
 		<ProjectTile 
 			v-for="proj, i in projects"
 			v-bind="proj"
-			:key="i"
-			:color="i % 2 ? '#BCE5E8' : 'white'"/>
+			:key="i"/>
 	</div>
 </template>
 
@@ -31,6 +30,7 @@ export default {
 #projects {
 	background: #BCE5E8;
 	color: #313131DB;
+	padding: 2rem 0;
 }
 
 h2 {

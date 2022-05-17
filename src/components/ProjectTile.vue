@@ -1,17 +1,18 @@
 <template>
-	<div :class="{'tile': true, 'hand': link}" :style="{'background': color}" @click="route">
-			<div class="content">
-				<h3 :class="{'project-title': true}"><b>{{ name }}</b></h3>
-				<p><b>{{ forWho }}</b> –– {{ date }}</p>
-				<br>
-				<br>
-				<p>{{ description }}</p>
-			</div>
-			<img v-if="image" :src="getImage(image)" :alt="`An image of ${name}`">
-	</div>
+		<div :class="{'tile': true, 'hand': link}" :style="{'background': color}" @click="route">
+				<div class="content">
+					<h3 :class="{'project-title': true}"><b>{{ name }}</b></h3>
+					<p><b>{{ forWho }}</b> –– {{ date }}</p>
+					<br>
+					<br>
+					<p>{{ description }}</p>
+				</div>
+				<img v-if="image" :src="getImage(image)" :alt="`An image of ${name}`">
+		</div>
 </template>
 
 <script>
+// comment
 const defaultString = {
 	type: String,
 	default: ""
@@ -27,7 +28,7 @@ export default {
 		link: defaultString,
 		color: {
 			type: String,
-			default: "#BCE5E8"
+			default: "#FFFFFF"
 		}
 	},
 	methods: {
@@ -49,9 +50,11 @@ export default {
 <style scoped>
 .tile {
 	text-align: left;
-	padding: 2rem;
+	padding: 3rem;
 	display: grid;
 	grid-template-columns: 80% 1fr;
+	margin: 2rem;
+	border-radius: 8px;
 }
 
 .content {
@@ -82,5 +85,15 @@ p {
 
 img {
 	padding: 1rem;
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	img {
+		display: none;
+	}
+	.tile {
+		grid-template-columns: 1fr;
+	}
 }
 </style>

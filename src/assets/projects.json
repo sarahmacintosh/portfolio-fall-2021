@@ -1,5 +1,13 @@
 [
 	{
+		"name": "Designing Custom Collaboration Solutions for Enterprises - Coming Soon",
+		"date": "Winter 2022",
+		"forWho": "TRIYO",
+		"description": "Modifying existing software and designing new features to meet unique business needs.",
+		"image": "triyo-logo.png"
+		
+	},
+	{
 		"name": "Increasing User Retention Rates by Improving UX",
 		"date": "Spring 2021",
 		"forWho": "Water Rangers",
@@ -20,7 +28,15 @@
 		"date": "Winter 2020",
 		"forWho": "Employment & Social Development Canada",
 		"description": "Optimizing benefits delivery web pages to improve accessibility and experience for users.",
-		"image": "sweb-temp-ESDC.png",
+		"image": "sweb-temp-ISED.png",
+		"link": "/esdc"
+	},
+	{
+		"name": "Exploring the Relationship between ESL and Math learning",
+		"date": "Winter/Spring 2018",
+		"forWho": "Carleton University Math Lab",
+		"description": "Collecting and analyzing data for the LLAMA project on Dr. Jo-Anne Lefevre's research team.",
+		"image": "carleton-logo.jpeg",
 		"link": "/esdc"
 	}
 ]

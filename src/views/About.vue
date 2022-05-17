@@ -31,9 +31,7 @@ export default {
 <style scoped>
 .about {
 	width: 100%;
-	padding-top: 10rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding: 10rem 3rem 2rem;
 	min-height: 100vh;
 	background: #BCE5E8;
 }
@@ -65,11 +63,17 @@ p {
 	color: #313131DB;
 	font-size: 20px;
 	font-weight: 100;
-	max-width: 60%;
 }
 img {
 	max-width: 40%;
 	float: right;
 	padding: 2rem;
+	border-radius: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+	img {
+		display: none;
+	}
 }
 </style>
