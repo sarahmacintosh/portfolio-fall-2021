@@ -21,6 +21,10 @@ const routes = [
   {
     path: '/esdc',
     component: () => import('../views/ESDC.vue')
+  },
+  {
+    path: '/carleton',
+    component: () => import('../views/CarletonRA.vue')
   }
 ]
 

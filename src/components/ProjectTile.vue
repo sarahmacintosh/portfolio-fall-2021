@@ -53,8 +53,9 @@ export default {
 	padding: 3rem;
 	display: grid;
 	grid-template-columns: 80% 1fr;
-	margin: 2rem;
-	border-radius: 8px;
+	margin: 3rem;
+	border-radius: 16px;
+	box-shadow: 5px 5px 5px #90AFB2;
 }
 
 .content {

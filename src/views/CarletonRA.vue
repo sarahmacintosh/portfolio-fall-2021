@@ -11,30 +11,10 @@
 				<p class="sub-header"><b>Skills:</b> Data collection, Data entry, Data analysis</p>
 				<p class="sub-header"><b>Tools:</b> SPSS, Excel</p>
 				<br>
-				<h2>The Project</h2>
-					<p>
-					text.
-					</p>
-					
-				<h2>Method</h2>
-					<p>
-					text.
-					</p>
-
-				<h2>Design Changes</h2>
-					<p>
-					text.
-					</p>
-
-				<h2>Results</h2>
-					<p>
-					text.
-					</p>
-					
-                <h2>Conclusion</h2>
-					<p>
-					text.
-					</p>
+				<h2>Summary</h2>
+					<p>As a Research Assistant I collected data from participants during testing sessions, codified and entered the data into SPSS, and created my own study based on a subset of the data. I presented my poster at the 2019 MCLS conference in Ottawa.</p>
+					<p>Read about the project here <a href="https://carleton.ca/llama/about/">here</a>.</p>
+					<img src="../assets/llama-group-shot.jpeg" alt="The LLAMA Project Team">
 			</div>
 			<br>
 		</div>
