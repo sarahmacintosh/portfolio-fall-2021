@@ -107,7 +107,7 @@ h1 {
 	line-height: 24px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #313131DB;
+	color: #191919;
 }
 
 h2 {
@@ -118,7 +118,7 @@ h2 {
 	line-height: 24px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #313131DB;
+	color: #191919;
 }
 
 h3 {
@@ -129,12 +129,12 @@ h3 {
 	line-height: 24px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #313131DB;
+	color: #191919;
 }
 
 ul {
 	text-align: left;
-	color: #313131DB;
+	color: #191919;
 	font-size: 20px;
 	font-weight: 100;
 	max-width: 90%;
@@ -148,12 +148,12 @@ ul {
 	line-height: 24px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #313131DB;
+	color: #191919;
 }
 
 p {
 	text-align: left;
-	color: #313131DB;
+	color: #191919;
 	font-size: 20px;
 	font-weight: 100;
 	max-width: 90%;

@@ -55,7 +55,7 @@ export default {
 	grid-template-columns: 80% 1fr;
 	margin: 3rem;
 	border-radius: 16px;
-	box-shadow: 5px 5px 5px #90AFB2;
+	box-shadow: 5px 5px 5px #82879b;
 }
 
 .content {

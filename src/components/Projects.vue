@@ -28,8 +28,8 @@ export default {
 
 <style scoped>
 #projects {
-	background: #BCE5E8;
-	color: #313131DB;
+	background: #989EB6;
+	color: #191919;
 	padding: 2rem 0;
 }
 

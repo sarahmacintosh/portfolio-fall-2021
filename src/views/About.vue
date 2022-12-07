@@ -6,7 +6,7 @@
 			<div>
 				<h1>Hey, I'm Sarah!</h1>
 				<p class="sub-header" >I'm a third year Systems Design Engineering student at the University of Waterloo. I've worked on a wide range of projects where I've gained experience in user experience design, research, project management and front end development.</p>
-				<p>I'm passionate about using a user-centred, data driven approach to design digital and physical products with flawless user experience. I have diverse experience in UX design, UX research, project management and front end development so I have the background to create designs that are simple for developers to implement while serving users effectively.</p>
+				<p>I'm passionate about using a user-centred, data driven approach to design digital and physical products with flawless user experience and a positive environmental impact. I have diverse experience in UX design, UX research, project management and front end development so I have the background to create designs that are simple for developers to implement while serving users effectively.</p>
 				<p>I'm also an avid athlete. I enjoy running, mountain biking, climbing and competing on the Waterloo Varsity cross country ski team. When I'm not being active I enjoy photography, travelling with friends and taking care of my jungle of house plants.</p>
 				<p>Looking for a 4 month co-op placement starting May 2023. Please feel free to reach out!</p>
 			</div>
@@ -33,7 +33,7 @@ export default {
 	width: 100%;
 	padding: 10rem 3rem 2rem;
 	min-height: 100vh;
-	background: #BCE5E8;
+	background: #BFC7EA;
 }
 
 h1 {
@@ -71,7 +71,7 @@ img {
 	border-radius: 10%;
 }
 link{
-	color: #11ABB0;
+	color: #9BADF6;
 }
 
 @media only screen and (max-width: 600px) {

@@ -4,6 +4,8 @@
 			<h1 class="hero-text">–– Sarah Macintosh ––</h1>
 			<!--<h2>Systems Design Engineering student, UX designer, athlete, photographer</h2>-->
 		</span>
+		<!--<router-link :to="{ path: '#projects' }"><button> <img src="../assets/arrow-down-button.png"> </button></router-link>-->
+
 	</div>
 </template>
 
@@ -12,7 +14,7 @@
 	padding: 5rem;
 	padding-top: 10rem;
 	min-height: 100vh;
-	background-image: url("../assets/water-stream.jpeg");
+	background-image: url("../assets/sunset-plants-cropped.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: grid;
