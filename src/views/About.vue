@@ -5,10 +5,10 @@
 		<img src="../assets/profile-image.jpeg" alt="Me!">
 			<div>
 				<h1>Hey, I'm Sarah!</h1>
-				<p class="sub-header">I'm a third year Systems Design Engineering student at the University of Waterloo. I've worked on a wide range of projects where I've gained experience in user experience design, research, project management and front end development.</p>
-				<p>I'm passionate about using a holistic, data driven approach to design products with flawless user experience. With diverse experience in UX design, research, project management and front end development I have the background to create designs that are simple for developers to implement while serving users effectively.</p>
-				<p>I'm also an avid athlete. I enjoy running, mountain biking, climbing and competing on the Waterloo Varsity cross country ski team. When I'm not being active I enjoy photography, peer mentoring and taking care of my jungle of house plants.</p>
-				<p>Looking for a 4 month co-op placement starting September 2022. Please feel free to reach out!</p>
+				<p class="sub-header">I'm a third year <a href="https://uwaterloo.ca/future-students/programs/systems-design-engineering">Systems Design Engineering</a> student at the University of Waterloo. I've worked on a wide range of projects where I've gained experience in user experience design, research, project management and front end development.</p>
+				<p>I'm passionate about using a user-centred, data driven approach to design digital and physical products with flawless user experience. I have diverse experience in UX design, UX research, project management and front end development so I have the background to create designs that are simple for developers to implement while serving users effectively.</p>
+				<p>I'm also an avid athlete. I enjoy running, mountain biking, climbing and competing on the Waterloo Varsity cross country ski team. When I'm not being active I enjoy photography, travelling with friends and taking care of my jungle of house plants.</p>
+				<p>Looking for a 4 month co-op placement starting May 2023. Please feel free to reach out!</p>
 			</div>
 		</div>
 		<Footer/>
