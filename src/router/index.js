@@ -11,6 +11,10 @@ const routes = [
     component: () => import('../views/About.vue')
   },
   {
+    path: '/triyo',
+    component: () => import('../views/TRIYO.vue')
+  },
+  {
     path: '/water-rangers',
     component: () => import('../views/WaterRangers.vue')
   },

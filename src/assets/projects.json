@@ -1,10 +1,11 @@
 [
 	{
-		"name": "UX Research for Design System Development - Coming Soon",
-		"date": "Fall 2022",
-		"forWho": "PerkinElmer",
-		"description": "Using user research, usability testing and ISO standards to make data driven design decisions.",
-		"image": "PKI-logo.jpg"
+		"name": "Designing for Mobile Second",
+		"date": "Winter 2022",
+		"forWho": "TRIYO",
+		"description": "Tackling the issue of how to approach mobile version design for established desktop software.",
+		"image": "triyo-logo.png",
+		"link": "/triyo"
 		
 	},
 	{
@@ -38,13 +39,5 @@
 		"description": "Collecting and analyzing data for the LLAMA project on Dr. Jo-Anne Lefevre's research team.",
 		"image": "carleton-logo.jpeg",
 		"link": "/carleton"
-	},
-	{
-		"name": "Designing Custom Collaboration Solutions for Enterprises - Coming Soon",
-		"date": "Winter 2022",
-		"forWho": "TRIYO",
-		"description": "Modifying existing software and designing new features to meet unique business needs.",
-		"image": "triyo-logo.png"
-		
 	}
 ]
