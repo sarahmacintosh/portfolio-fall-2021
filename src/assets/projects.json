@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Wealth Management App Design System",
+		"date": "Summer 2023",
+		"forWho": "Accenture",
+		"description": "Building a scalable design system mid-project for a wealth management app.",
+		"image": "triyo-logo.png",
+		"link": "/accenture"
+		
+	},
+	{
 		"name": "Designing for Mobile Second",
 		"date": "Winter 2022",
 		"forWho": "TRIYO",
